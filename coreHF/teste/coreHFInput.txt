@@ -1,0 +1,54 @@
+teste
+
+gamessCharge
++1
+gamessChargeEnd
+
+gamessNproc
+1
+gamessNprocEnd
+
+gamessPath
+/home/fred/gamess/rungms
+/home/fred/scr/
+gamessPathEnd
+
+gamessHeader
+ $CONTRL SCFTYP=RHF RUNTYP=GRADIENT COORD=UNIQUE
+         NZVAR=0 ICHARG=1 MULT=1 MAXIT=200 $END
+ $SYSTEM MWORDS=20 MEMDDI=20 $END
+ $DATA
+aug-cc-pvtz
+C1
+gamessHeaderEnd
+
+gamessBaseNames
+h2base
+gamessBaseNamesEnd
+
+gamessAtomNumbers
+5
+gamessAtomNumbersEnd
+
+gamessInitialCoordinates
+-1.04653711   -2.46693805    0.00000000
+-1.85665897   -2.46693805    0.00000000
+-1.45159804   -1.55801030    0.00000000
+-1.45159804   -0.30341030    0.38425000
+-1.45159804   -0.30341030   -0.38425000
+gamessInitialCoordinatesEnd
+
+gamessExpoentContraction
+0.70 
+1.00
+gamessExpoentContractionEnd
+
+gamessGaussianCoeff
+1.0
+0.2
+3.0
+gamessGaussianCoeffEnd
+
+
+
+

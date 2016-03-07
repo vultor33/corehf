@@ -1,0 +1,29 @@
+ $CONTRL SCFTYP=RHF CCTYP=CCSD RUNTYP=ENERGY COORD=UNIQUE
+         NZVAR=0 ICHARG=1 MULT=1 MAXIT=200 $END
+ $SYSTEM MWORDS=200 MEMDDI=200 $END
+ $CCINP MAXCC=100 $END
+ $BASIS BASNAM(1)=hbase,hbase,hbase,hbase,hbase $END
+ $DATA
+aug-cc-pvtz
+C1
+H 1.0   0  0  0
+S 1 
+  1  1.00 1.00
+
+H 1.0   1  0  0
+S 1 
+  1  1.00 1.00
+
+H 1.0   2  0  0
+S 1 
+  1  1.00 1.00
+
+H 1.0   3  0  0
+S 1 
+  1  1.00 1.00
+
+H 1.0   4  0  0
+S 1 
+  1  1.00 1.00
+
+ $END 

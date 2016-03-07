@@ -1,0 +1,37 @@
+CoreHf
+
+Programa que adiciona uma contribuicao semiempirica ao metodo hartree-fock
+
+A parametrizacao e dividida em 3 executaveis
+
+CoreHF
+
+-> programa que faz de fato uma otimizacao com o hartree fock e gaussianas.
+
+-> necessita dos seguintes arquivos coreHFInput.txt  h2base.txt
+   para formatos checar coreHF/teste
+
+
+CoreHFparam
+
+-> Chama o CoreHF nas configuracoes definidas e compara as energias obtidas
+   com dados experimentais, gerando por fim o fitness.txt que sera usado no
+   ajuste.
+
+-> requer os seguintes arquivos coreHFparameterizationInput.txt  h2base.txt
+   CoreHF.exe
+   -> Ele cria automaticamente os inputs do CoreHF.exe
+   -> Para formatos: checar coreHFparam/teste
+
+
+simplex-nag-CoreHF
+
+-> simplex adaptado para o corehf.
+
+-> precisa do point.txt e do coreHFparametrizationInput.txt
+
+-> checar teste-otimization para formatos
+ 
+
+
+

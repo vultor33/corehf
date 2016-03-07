@@ -1,0 +1,4 @@
+ nome   
+ /home/fred/gamess/rungms
+ /home/fred/scr/
+   8.5000000000000000     

@@ -1,0 +1,7 @@
+hydra
+/state/partition1/apps/opt/gamess/rungms 
+/state/partition1/scratch/gamess.scr/
+0.7
+1.0
+0.2
+3.0
