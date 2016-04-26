@@ -1,0 +1,182 @@
+ *******************************************************************************
+ ** Site#: 6211         For non-commercial use only     Version 16.093W 64BITS**
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 16.093W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 352**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sat Apr 16 12:07:35 2016  *
+ *  FORCE      - FORCE CALCULATION SPECIFIED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+FORCE
+ h-h-mol0-freq
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.12040764  *   0.00000000  *  -0.00000000  *
+     2       H          0.87959236  *   0.00000000  *  -0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         H        0.1204    0.0000   -0.0000
+     2         H        0.8796    0.0000   -0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: H2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 1
+
+
+
+          HEAT OF FORMATION =     -32.010508 KCALS/MOLE
+
+
+          CARTESIAN COORDINATE DERIVATIVES
+
+   NUMBER  ATOM         X            Y            Z
+
+     1       H      0.450391     0.000000     0.000000
+     2       H     -0.450391     0.000000     0.000000
+ 
+
+
+          GRADIENT NORM =   0.63695
+
+          MOLECULAR WEIGHT =    2.02
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.00000000   B =   58.03823241   C =   58.03823219
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =        0.0000   B =        0.4823   C =        0.4823
+
+
+          ORIENTATION OF MOLECULE IN FORCE CALCULATION
+
+    NO.       ATOM         X         Y         Z
+
+     1          H      -0.3796    0.0000    0.0000
+     2          H       0.3796    0.0000    0.0000
+
+
+    FIRST DERIVATIVES WILL BE USED IN THE CALCULATION OF SECOND DERIVATIVES
+
+    FOR POINT-GROUP D*h  THERE ARE 120 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   2 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   3 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   4                       INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   5                       INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   6                       INTEGRAL =      0.00 TIME LEFT: 172800.00
+
+(To convert to Hartree/Bohr^2, multiply by (10^(-21) x N x a0^2)/(4.184 x 627.51) =  0.0642)
+
+
+           FORCE MATRIX IN MILLIDYNES/ANGSTROM
+
+
+                  H  1       H  2
+ ------------------------------
+     H    1   9.254317
+     H    2   9.254317   9.254317
+
+
+          HEAT OF FORMATION =     -32.010508 KCALS/MOLE
+
+          ZERO POINT ENERGY       7.981 KCAL/MOL
+
+
+           NORMAL COORDINATE ANALYSIS (Total motion = 1 Angstrom)
+
+
+   Root No.       1
+
+                 1 Sig 
+
+                5582.8
+  
+           1    0.5000
+           2   -0.0000
+           3   -0.0000
+           4   -0.5000
+           5    0.0000
+           6    0.0000
+
+
+           MASS-WEIGHTED COORDINATE ANALYSIS (NORMAL COORDINATES)
+
+
+   Root No.       1
+
+                 1 Sig 
+
+                5582.8
+  
+           1   -0.7071
+           2    0.0000
+           3    0.0000
+           4    0.7071
+           5   -0.0000
+           6   -0.0000
+
+
+          DESCRIPTION OF VIBRATIONS
+
+
+ VIBRATION    1    1Sig     ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      5582.81        H  1 --  H  2         +100.0% (100.0%)   100.0%
+ T-DIPOLE    0.0000
+ TRAVEL      0.1095
+ RED. MASS   0.5040
+ EFF. MASS   1.0079
+
+           FORCE CONSTANT IN CARTESIAN COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL       X               Y               Z
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       H        9.254315       -0.003982       -0.003982
+      2       H        9.254315       -0.003982       -0.003982
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.13 SECONDS
+
+ == MOPAC DONE ==
